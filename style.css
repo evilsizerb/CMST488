@@ -85,6 +85,15 @@ p {
 	display: left;
 }
 
+.intro p {
+	color: grey;
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+	margin-left: 100px; 
+	margin-top: 20px;
+	display: left;
+}
+
 hr {
 	width: 100%;
 	color: gray;
@@ -117,14 +126,42 @@ label {
 	display: left;
 }
 
-#flname {
+.name label {
 	display: left;
 	margin-top: 60px;
+	margin-left:60px;
+}
+
+#flname {
+	display: left;
+	margin-left: 70px;
+}
+
+.email label {
+	display: left;
+	margin-top: 100px;
+	margin-left: 61px;
 }
 
 #email {
 	display: left;
-	margin-top: 60px;
+	margin-left: 51px;
+}
+
+.comm label {
+	display: left;
+	margin-top: 100px;
+	margin-left: 61px;
+}
+
+#com {
+	display: left;
+	margin-left: 190px;
+}
+
+#submit {
+	margin-left: 80px;
+	margin-top: 20px;
 }
 
 .tarotImg {
